@@ -1,0 +1,32 @@
+[
+  {
+    "name": "한제이",
+    "email": "hanj2@kakao.com",
+    "password": "$2b$10$K7PvRTiwF3xH5h9R.2IZoOrM54q5fkxlHJiQuTSvRz5vm7O99lxrO",
+    "id": "591c1b02-c690-4348-8dcc-a0c1fb693edf"
+  },
+  {
+    "name": "지훈",
+    "email": "yamoo9@naver.com",
+    "password": "$2b$10$6dHtQ34rZC5yWbm9YQOiU.hI9Ek0MrUzlrt0cD9XlSVVHHvUvQbLi",
+    "id": "17c7075e-0cb6-42e8-9d02-156aab3a4935"
+  },
+  {
+    "id": "e7499941-42d4-4d93-9446-e02dda294d7b",
+    "name": "ㅎㅇ",
+    "email": "hi@naver.com",
+    "password": "$2b$09$DJVvw7.jOQYYRvUwvN68V.S3l5fWIx4FNgPFuT9p.OQNIF5veSW8."
+  },
+  {
+    "id": "b1ed27dc-22f1-4f0a-a07d-1df9e0c67deb",
+    "name": "ㅇㅇ",
+    "email": "dd@naver.com",
+    "password": "$2b$09$o3M7uZm1H.URLvqQ7/IGzeRmGp00EuUECUnUq/tlzFVRWRuyuV7Sy"
+  },
+  {
+    "id": "13fd6bbd-da64-4c39-833c-7f53a01c8219",
+    "name": "쥑쥑",
+    "email": "ham@naver.com",
+    "password": "$2b$09$ZFUUFqHzoUmYbxoKTcluZuvGqKi/N/qVibHklMaUrZeCPHcgDrBvS"
+  }
+]

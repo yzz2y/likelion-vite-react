@@ -11,7 +11,7 @@ export default tseslint.config(
     ignores: ['dist'],
   },
   {
-    files: ['**/*.{ts,tsx}'],
+    files: ['src/**/*.{ts,tsx}'],
     ...jsxA11y.flatConfigs.recommended,
     settings: {
       react: {
@@ -46,8 +46,10 @@ export default tseslint.config(
       ...react.configs.flat.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
+      'jsx-a11y/click-events-have-key-events': 'off',
       '@typescript-eslint/no-unsafe-assignment': 'off',
       '@typescript-eslint/no-unsafe-call': 'off',
+      // '@typescript-eslint/consistent-type-definitions': 'error',
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },

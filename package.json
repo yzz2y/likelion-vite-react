@@ -14,8 +14,8 @@
     "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --cache 'src/**/*.{ts,tsx}'",
-    "format": "prettier --write --cache 'src/**/*.{ts,tsx}'",
+    "lint": "eslint --cache \"src/**/*.{ts,tsx}\"",
+    "format": "prettier --write --cache \"src/**/*.{ts,tsx}\"",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "9.18.0",
+    "@types/express": "5.0.0",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
     "@vitejs/plugin-react": "4.3.4",
@@ -37,6 +38,7 @@
     "globals": "15.14.0",
     "husky": "^8.0.0",
     "lint-staged": "15.4.1",
+    "nodemon": "3.1.9",
     "prettier": "3.4.2",
     "typescript": "5.7.3",
     "typescript-eslint": "8.20.0",
